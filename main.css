@@ -1,3 +1,45 @@
 body {
-    background-color: aquamarine;
+    background-color: #cb85d1;
+}
+
+.title {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    text-decoration: underline;
+    background-color: #6fd8b57f;
+}
+
+.sliders {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.colorLabel {
+    text-align: center;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #6fd8b599;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+
+.slider {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+
+.slider input {
+    display: block;
+    width: 100%;
 }
