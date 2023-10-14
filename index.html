@@ -6,13 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>COOlerPicker</title>
 </head>
 
 <body>
-    <p>leszek</p>
 
+    <div class="wrapper">
+        <div class="title">
+            <h1>COOlerPicker</h1>
+            <h2>Pick your own cool color!
+            </h2>
+        </div>
+        <div class="sliders">
+            <div class="slider">
+                <input type="range" min="0" max="255" id="inputRed">
+                <p class="colorLabel">Red</p>
+            </div>
+            <div class="slider">
+                <input type="range" min="0" max="255" id="inputGreen">
 
+                <p class="colorLabel">Green</p>
+            </div>
+            <div class="slider">
+                <input type="range" min="0" max="255" id="inputBlue">
+                <p class="colorLabel">Blue</p>
+            </div>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 
