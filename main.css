@@ -1,3 +1,8 @@
+*:not(h3) {
+    user-select: none;
+    font-family: monospace;
+}
+
 body {
     background-color: rgb(148, 65, 208);
 }
@@ -9,7 +14,6 @@ body {
     padding: 15px;
     margin-bottom: 30px;
     border-radius: 20px;
-    text-decoration: underline;
     background-color: #6fd8b57f;
 }
 

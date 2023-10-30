@@ -16,4 +16,12 @@ function onInputChange() {
     document.body.style.backgroundColor = backgroundColor
     let rgbValueElement = document.querySelector(".rgbValue")
     rgbValueElement.innerText = backgroundColor
+    red = Number(red)
+    green = Number(green)
+    blue = Number(blue)
+    let hexValueElement = document.querySelector(".hexValue")
+    let blueHex = blue.toString(16)
+    let redHex = red.toString(16)
+    let greenHex = green.toString(16)
+    hexValueElement.innerText = "#" + redHex + greenHex + blueHex
 }           
